@@ -27,7 +27,6 @@
     text-decoration: none;
     color: var(--primary-color);
   }
-  section.listing a::after {
-    content: "\203A";
+  section.listing a::after text {
     margin-left: 5px;
   }
