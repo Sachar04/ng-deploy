@@ -42,7 +42,9 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/ng-deploy/",
+              "deployUrl": "/ng-deploy/"
             },
             "development": {
               "buildOptimizer": false,
