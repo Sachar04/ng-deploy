@@ -20,6 +20,10 @@
   }
 
   .content {
+    /* base padding on all sides */
+    padding: var(--content-padding);      
+  
+    /* then override only the top with enough room for the 60px header + extra spacing */
     padding-top: calc(60px + var(--content-padding) * 2);
-    padding: var(--content-padding);
   }
+  

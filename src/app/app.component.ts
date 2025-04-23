@@ -26,7 +26,7 @@ export class AppComponent {
   navbarVisible = true;
   private lastScrollTop = 0;
 
-  @HostListener('window.scroll', [])
+  @HostListener('window:scroll', [])
   onWindowScroll() {
     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
     if(currentScroll > this.lastScrollTop && currentScroll > 100) {
