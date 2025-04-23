@@ -14,7 +14,7 @@
   }
   
   .listing-location::before {
-    content: url('https://sachar04.github.io/ng-deploy/docs/assets/location-pin.svg') / '';
+    content: url('/ng-deploy/assets/location-pin.svg');
   }
   
   .listing-location {
