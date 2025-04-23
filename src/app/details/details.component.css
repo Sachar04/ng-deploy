@@ -70,3 +70,8 @@
       height: 400px;
     }
   }
+  @media (max-width: 500px) {
+    .input {
+      width:300px;
+    }
+  }
