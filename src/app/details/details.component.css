@@ -71,7 +71,7 @@
     }
   }
   @media (max-width: 500px) {
-    .input {
+    input {
       width:300px;
     }
   }
