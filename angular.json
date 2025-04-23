@@ -43,7 +43,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/ng-deploy/",
+              "baseHref": "/ng-deploy/"
             },
             "development": {
               "buildOptimizer": false,
