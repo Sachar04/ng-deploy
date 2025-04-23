@@ -11,7 +11,7 @@ import { FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
   imports: [CommonModule, ReactiveFormsModule],
   template: `
     <article>
-      <img [src]="housingLocation?.photo" alt="" class="listing-photo">
+      <img [src]="housingLocation?.photo" class="listing-photo">
       <section class="listing-description">
         <h2 class="listing-heading">{{housingLocation?.name}}</h2>
         <p class="listing-location">{{housingLocation?.city}}, {{housingLocation?.state}}</p>
