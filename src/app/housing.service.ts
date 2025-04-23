@@ -23,6 +23,6 @@ export class HousingService {
   }
 
   submitApplication(firstName: string, lastName: string, email: string) {
-    alert("Sending data to https://pornhub.com/saygex . . .\n\n" + "first name: "+firstName+"\nlast name: "+lastName+ "\nemai: " + email)
+    alert("Sending data to https://gov.cn/ . . .\n\n" + "first name: "+firstName+"\nlast name: "+lastName+ "\nemai: " + email)
   }
 }
