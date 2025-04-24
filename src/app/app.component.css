@@ -26,4 +26,3 @@
     /* then override only the top with enough room for the 60px header + extra spacing */
     padding-top: calc(60px + var(--content-padding) * 2);
   }
-  
