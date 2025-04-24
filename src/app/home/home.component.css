@@ -24,6 +24,11 @@
     color: white;
     border-radius: 8px;
   }
+
+  form.search-form {
+    display: flex;
+    justify-content: center;
+}
   
   @media (min-width: 500px) and (max-width: 768px) {
     .results {

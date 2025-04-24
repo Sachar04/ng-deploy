@@ -22,8 +22,3 @@
     color: white;
     border-radius: 8px;
   }
-
-  form.search-form.ng-untouched.ng-pristine.ng-valid {
-    display: flex;
-    justify-content: center;
-}
