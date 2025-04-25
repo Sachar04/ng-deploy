@@ -25,8 +25,18 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/aos/dist/aos.css"
+              {
+                "input": "src/assets/themes/light.css",
+                "bundleName": "light",
+                "inject": false
+              },
+              {
+                "input": "src/assets/themes/dark.css",
+                "bundleName": "dark",
+                "inject": false
+              }
             ],
+            
             "scripts": []
           },
           "configurations": {

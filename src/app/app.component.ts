@@ -1,6 +1,8 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { Theme } from '@mui/material';
+import { ThemesService } from './services/themes.service';
 
 @Component({
   standalone: true,
@@ -20,8 +22,14 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./app.component.css'],
   imports: [HomeComponent, RouterModule]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'homes';
+
+  constructor(private theme: ThemesService) {}
+
+  ngOnInit() {
+    this.theme.loadTheme('dark');
+  }
 
   navbarVisible = true;
   private lastScrollTop = 0;
