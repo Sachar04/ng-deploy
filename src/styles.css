@@ -11,12 +11,13 @@
     --secondary-color: #8B89E6;
     --accent-color: #e8e7fa;
     --shadow-color: #E8E8E8;
+    --background-color: white;
   }
   
   button.primary {
     padding: 10px;
     border: solid 1px var(--primary-color);
     background: var(--primary-color);
-    color: white;
+    color: var(--background-color);
     border-radius: 8px;
   }
