@@ -28,12 +28,12 @@
               {
                 "input": "src/assets/themes/light.css",
                 "bundleName": "light",
-                "inject": false
+                "inject": true
               },
               {
                 "input": "src/assets/themes/dark.css",
                 "bundleName": "dark",
-                "inject": false
+                "inject": true
               }
             ],
             
