@@ -35,6 +35,7 @@
   
   .listing-features li {
     font-size: 14pt;
+    color: var(--secondary-color);
   }
   
   li {
