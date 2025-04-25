@@ -1,0 +1,1 @@
+:root{--primary-color: hsl(242, 29%, 45%);--secondary-color: hsl(241, 15%, 55%);--accent-color: hsl(0, 0%, 20%);--shadow-color: hsl(0, 0%, 20%);--background-color: hsl(0, 0%, 10%);--font-color: hsl(0, 0%, 40%)}@media (prefers-color-scheme : light){:root{--background-color: white}}
