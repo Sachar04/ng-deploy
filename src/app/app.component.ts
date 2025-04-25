@@ -1,7 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
-import { Theme } from '@mui/material';
 import { ThemesService } from './services/themes.service';
 
 @Component({
