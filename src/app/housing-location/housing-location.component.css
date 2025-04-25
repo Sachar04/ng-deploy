@@ -18,6 +18,10 @@
     padding: 10px 20px 20px 20px;
   }
 
+  .listing-location p {
+    color: var(--secondary-color);
+  }
+
   .listing-location::before {
     content: url('/ng-deploy/assets/location-pin.svg');
   }
